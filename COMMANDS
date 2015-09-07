@@ -20,7 +20,7 @@ $git log [to get an update]
 $git status [... similar]
 
 ##PUSH:
-$git push -u origin master
+$git push -u origin master ['u' is for upstream]
 or
 $git push [for the next time after doing the -u origin master thing]
 
