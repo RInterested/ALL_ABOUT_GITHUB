@@ -17,3 +17,5 @@ $touch testfile.txt (creates a new file in the local directory)
 [Since the COMMANDS file was directly created online, we can download it by...]
 $git pull (paste here the URL of the Repository...) https://github.com/.../.../Test.git
 $ls
+$git add . [add all untracked files]
+$git commit -m "test text file created" [for example]
