@@ -6,7 +6,7 @@ $cd Test [change directory to the newly created folder in the Desktop]
 $ls [list of files]
 README.md [say this is the return that you get]
 $vim README.md (you can also edit with Notepad by clicking on Test on the Desktop). [this is to edit the file README.md]
-[after inserting the message type ESC several times and then type ":" followed by "q" for quit without saving, or "x" for saving]
+[after inserting (type "i") the message type ESC several times and then type ":" followed by "q" for quit without saving, or "x" for saving]
 $git add README.md [add, commit and push are the three commands necessary to get this file to github.com]
 $git commit -m (or -F for file) "updated README file"
 $git log [to get an update]
