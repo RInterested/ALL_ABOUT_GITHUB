@@ -7,15 +7,25 @@ $ls [list of files]
 README.md [say this is the return that you get]
 $vim README.md (you can also edit with Notepad by clicking on Test on the Desktop). [this is to edit the file README.md]
 [after inserting (type "i") the message type ESC several times and then type ":" followed by "q" for quit without saving, or "x" for saving]
+
+##ADD:
 $git add README.md [add, commit and push are the three commands necessary to get this file to github.com]
-$git commit -m (or -F for file) "updated README file"
+$git add . [add all untracked files]
+
+##COMMIT:
+$git commit -m "updated README file" ['m' for message]
+or
+$git commit -F testfile.txt ['F' for file - no need for quotes; just the name of the file]
 $git log [to get an update]
 $git status [... similar]
+
+##PUSH:
 $git push -u origin master
 ##type when prompted "RInterested" and password
 $touch testfile.txt (creates a new file in the local directory)
+
 [Since the COMMANDS file was directly created online, we can download it by...]
+
+##PULL:
 $git pull (paste here the URL of the Repository...) https://github.com/.../.../Test.git
-$ls
-$git add . [add all untracked files]
-$git commit -m "test text file created" [for example]
+
