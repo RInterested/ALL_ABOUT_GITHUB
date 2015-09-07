@@ -21,6 +21,9 @@ $git status [... similar]
 
 ##PUSH:
 $git push -u origin master
+or
+$git push [for the next time after doing the -u origin master thing]
+
 ##type when prompted "RInterested" and password
 $touch testfile.txt (creates a new file in the local directory)
 
