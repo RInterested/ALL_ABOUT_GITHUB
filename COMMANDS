@@ -1,16 +1,19 @@
 From Git Bash
 
-$cd Desktop
+$cd Desktop [change directory to the Desktop]
 $git clone (paste here the URL of the Repository created online with github) https://github.com/.../.../Test.git
-$cd Test
-$ls
-README.md
-$vim README.md (you can also edit with Notepad by clicking on Test on the Desktop).
+$cd Test [change directory to the newly created folder in the Desktop]
+$ls [list of files]
+README.md [say this is the return that you get]
+$vim README.md (you can also edit with Notepad by clicking on Test on the Desktop). [this is to edit the file README.md]
 [after inserting the message type ESC several times and then type ":" followed by "q" for quit without saving, or "x" for saving]
-$git add README.md
+$git add README.md [add, commit and push are the three commands necessary to get this file to github.com]
 $git commit -m (or -F for file) "updated README file"
-$git log
-$git status
+$git log [to get an update]
+$git status [... similar]
 $git push -u origin master
 ##type when prompted "RInterested" and password
 $touch testfile.txt (creates a new file in the local directory)
+[Since the COMMANDS file was directly created online, we can download it by...]
+$git pull (paste here the URL of the Repository...) https://github.com/.../.../Test.git
+$ls
