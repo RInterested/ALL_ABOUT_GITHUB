@@ -1,0 +1,16 @@
+From Git Bash
+
+$cd Desktop
+$git clone (paste here the URL of the Repository created online with github) https://github.com/.../.../Test.git
+$cd Test
+$ls
+README.md
+$vim README.md (you can also edit with Notepad by clicking on Test on the Desktop).
+[after inserting the message type ESC several times and then type ":" followed by "q" for quit without saving, or "x" for saving]
+$git add README.md
+$git commit -m (or -F for file) "updated README file"
+$git log
+$git status
+$git push -u origin master
+##type when prompted "RInterested" and password
+$touch testfile.txt (creates a new file in the local directory)
