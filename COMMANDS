@@ -35,9 +35,13 @@ $git pull (paste here the URL of the Repository...) https://github.com/.../.../T
 
 
 ##MAKE DIRECTORY, CREATE A FILE, AND UPLOAD TO GITHUB:
-mkdir trying5
-cd trying5
-touch file.txt [touch means create a file - doesn't work on PowerShell]
+$mkdir trying5
+$cd trying5
+$touch file.txt [touch means create a file - doesn't work on PowerShell]
 On Powershell:
-notepad file.txt [there will be an error message (no such file) followed by the option to create the file]
-git init
+$notepad file.txt [there will be an error message (no such file) followed by the option to create the file]
+$git init
+$git add . [for everything; the name of the file instead of the dot for a specific file]
+$git commit -m "I'm still trying"
+$git push origin master
+
