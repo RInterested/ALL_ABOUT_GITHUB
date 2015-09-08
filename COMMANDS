@@ -9,11 +9,12 @@ $cd Test [change directory to the newly created folder in the Desktop]
 $ls [list of files]
 README.md [say this is the return that you get]
 
-##MAKE DIRECTORY:
+##MAKE DIRECTORY, CREATE A FILE, AND UPLOAD TO GITHUB:
 mkdir tutorial3
 cd tutorial3
 touch file.txt [touch means create a file]
 notepad file.txt
+git init
 
 ##EDITING:
 $vim README.md (you can also edit with Notepad by clicking on Test on the Desktop). [this is to edit the file README.md]
