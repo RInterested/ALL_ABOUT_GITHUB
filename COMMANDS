@@ -1,9 +1,14 @@
 https://www.youtube.com/watch?v=4VHm31LDhxY&list=PLoMDuYa2bZdhO5bizK8ABrZtqBWcb-cGT&index=2
 From Git Bash or Windows PowerShell
 
-$cd Desktop [change directory to the Desktop]
+##DIRECTORIES:
+$dir [to find out the directory we are in]
+$ls [list files within a particular directory so as to select the new directory]
+$cd R [to set the directory within the R folder] 
+
 $git clone (paste here the URL of the Repository created online with github) https://github.com/.../.../Test.git
-$cd Test [change directory to the newly created folder in the Desktop]
+$cd Test [change directory to the newly created folder]
+
 $ls [list of files]
 README.md [say this is the return that you get]
 $vim README.md (you can also edit with Notepad by clicking on Test on the Desktop). [this is to edit the file README.md]
