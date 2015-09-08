@@ -5,8 +5,12 @@ $git clone (paste here the URL of the Repository created online with github) htt
 $cd Test [change directory to the newly created folder in the Desktop]
 $ls [list of files]
 README.md [say this is the return that you get]
+
+##EDITING:
 $vim README.md (you can also edit with Notepad by clicking on Test on the Desktop). [this is to edit the file README.md]
 [after inserting (type "i") the message type ESC several times and then type ":" followed by "q" for quit without saving, or "x" for saving]
+or
+notepad README.md
 
 ##ADD:
 $git add README.md [add, commit and push are the three commands necessary to get this file to github.com]
