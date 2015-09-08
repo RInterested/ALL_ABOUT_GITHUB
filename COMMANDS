@@ -11,6 +11,8 @@ README.md [say this is the return that you get]
 
 ##MAKE DIRECTORY:
 mkdir tutorial3
+cd tutorial3
+touch file.txt [touch means create a file]
 
 ##EDITING:
 $vim README.md (you can also edit with Notepad by clicking on Test on the Desktop). [this is to edit the file README.md]
