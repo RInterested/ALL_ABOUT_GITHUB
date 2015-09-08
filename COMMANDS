@@ -54,7 +54,13 @@ $git commit -m "I'm still trying"
 [Now go to Github and create a new repository named trying5 without README. Copy to clipboard the URL (first arrow)]
 $git remote add origin (paste the URL from the clipboard in here)
 $git -u origin master
+or
+$git push origin master
 [and enter username and password]
+If it doesn't work simply type:
+$git pull
+[and try again with git push origin master]
+
 [If we now make changes in Github and want to update the local directory]
 [First make sure that the directory is the correct one in the local computer and then]
 $git pull origin master
