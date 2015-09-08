@@ -3,7 +3,7 @@ https://www.youtube.com/watch?v=4VHm31LDhxY&list=PLoMDuYa2bZdhO5bizK8ABrZtqBWcb-
 From Git Bash or Windows PowerShell
 
 ##CLONING TO DESKTOP:
-$cd Desktop [change directory to the Desktop]
+$cd ~\Desktop [change directory to the Desktop]
 $git clone (paste here the URL of the Repository created online with github) https://github.com/.../.../Test.git
 $cd Test [change directory to the newly created folder in the Desktop]
 $ls [list of files]
