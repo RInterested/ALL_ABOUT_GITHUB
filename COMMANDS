@@ -43,5 +43,9 @@ $notepad file.txt [there will be an error message (no such file) followed by the
 $git init
 $git add . [for everything; the name of the file instead of the dot for a specific file]
 $git commit -m "I'm still trying"
-$git push origin master
+
+[Now go to Github and create a new repository named trying5 without README. Copy to clipboard the URL (first arrow)]
+$git remote add origin (paste the URL from the clipboard in here)
+$git -u origin master
+[and enter username and password]
 
