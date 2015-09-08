@@ -1,4 +1,5 @@
-From Git Bash
+https://www.youtube.com/watch?v=4VHm31LDhxY&list=PLoMDuYa2bZdhO5bizK8ABrZtqBWcb-cGT&index=2
+From Git Bash or Windows PowerShell
 
 $cd Desktop [change directory to the Desktop]
 $git clone (paste here the URL of the Repository created online with github) https://github.com/.../.../Test.git
