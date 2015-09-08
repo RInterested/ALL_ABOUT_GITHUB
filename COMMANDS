@@ -7,6 +7,7 @@ $ls [list of files]
 README.md [say this is the return that you get]
 $vim README.md (you can also edit with Notepad by clicking on Test on the Desktop). [this is to edit the file README.md]
 [after inserting (type "i") the message type ESC several times and then type ":" followed by "q" for quit without saving, or "x" for saving]
+$cd ../ [Going up one folder]
 
 ##ADD:
 $git add README.md [add, commit and push are the three commands necessary to get this file to github.com]
@@ -32,3 +33,11 @@ $touch testfile.txt (creates a new file in the local directory)
 ##PULL:
 $git pull (paste here the URL of the Repository...) https://github.com/.../.../Test.git
 
+
+##MAKE DIRECTORY, CREATE A FILE, AND UPLOAD TO GITHUB:
+mkdir trying5
+cd trying5
+touch file.txt [touch means create a file - doesn't work on PowerShell]
+On Powershell:
+notepad file.txt [there will be an error message (no such file) followed by the option to create the file]
+git init
