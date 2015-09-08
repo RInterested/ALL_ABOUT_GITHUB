@@ -1,5 +1,6 @@
 From Git Bash
 
+##CLONING TO DESKTOP:
 $cd Desktop [change directory to the Desktop]
 $git clone (paste here the URL of the Repository created online with github) https://github.com/.../.../Test.git
 $cd Test [change directory to the newly created folder in the Desktop]
@@ -10,7 +11,7 @@ README.md [say this is the return that you get]
 $vim README.md (you can also edit with Notepad by clicking on Test on the Desktop). [this is to edit the file README.md]
 [after inserting (type "i") the message type ESC several times and then type ":" followed by "q" for quit without saving, or "x" for saving]
 or
-notepad README.md
+notepad README.md [when done simply save like a Word document]
 
 ##ADD:
 $git add README.md [add, commit and push are the three commands necessary to get this file to github.com]
