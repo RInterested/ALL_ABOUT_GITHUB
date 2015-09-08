@@ -36,7 +36,7 @@ $git pull (paste here the URL of the Repository...) https://github.com/.../.../T
 [If it's the first time the command to download is:]
 $git clone (URL address)
 
-##MAKE DIRECTORY, CREATE A FILE, AND UPLOAD TO GITHUB:
+##MAKE DIRECTORY, CREATE A FILE, AND UPLOAD TO GITHUB and then go the opposite direction:
 $mkdir trying5
 $cd trying5
 $touch file.txt [touch means create a file - doesn't work on PowerShell]
@@ -50,4 +50,7 @@ $git commit -m "I'm still trying"
 $git remote add origin (paste the URL from the clipboard in here)
 $git -u origin master
 [and enter username and password]
+[If we now make changes in Github and want to update the local directory]
+[First make sure that the directory is the correct one in the local computer and then]
+$git pull origin master
 
