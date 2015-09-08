@@ -32,7 +32,8 @@ $touch testfile.txt (creates a new file in the local directory)
 
 ##PULL:
 $git pull (paste here the URL of the Repository...) https://github.com/.../.../Test.git
-
+[If it's the first time the command to download is:]
+$git clone (URL address)
 
 ##MAKE DIRECTORY, CREATE A FILE, AND UPLOAD TO GITHUB:
 $mkdir trying5
